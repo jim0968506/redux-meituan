@@ -1,5 +1,3 @@
-
-import Count from '../../Count'
 import './index.scss'
 
 const Foods = ({
@@ -12,7 +10,7 @@ const Foods = ({
   month_saled,
   like_ratio_desc,
   price,
-  tag,
+  tag
 }) => {
 
   return (
@@ -38,7 +36,9 @@ const Foods = ({
             <span className="goods-price-unit">¥</span>
             {price}
           </div>
-          <Count count={3} />
+          <div className="goods-count">
+            <span className="plus"></span>
+          </div>
         </div>
       </div>
     </dd>
