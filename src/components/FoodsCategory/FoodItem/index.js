@@ -10,7 +10,8 @@ const Foods = ({
   month_saled,
   like_ratio_desc,
   price,
-  tag
+  tag,
+  count
 }) => {
 
   return (
